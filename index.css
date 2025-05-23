@@ -2,7 +2,7 @@ body {
   /* background-color: aqua; */
   border-left: 20px solid grey;
   border-right: 20px solid grey;
-  border-bottom: 10px solid rgb(58, 57, 57);
+  /* border-bottom: 10px solid rgb(58, 57, 57); */
   margin: 0px;
   padding: 0px;
 }
@@ -58,7 +58,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
-  padding: 14px 24px;
+  padding: 13px 24px;
 }
 .a-tag:hover:not(.active) {
   background-color: gray;
@@ -67,11 +67,14 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 30px 30px 20px 30px;
-  /* position: relative; */
 }
 .text-area {
   position: relative;
 }
+/* .img-2-bk{
+  background-image: url("d:\Task-4\Imeges.form_bg.jpg");
+  background-position;
+} */
 .Question {
   background-color: brown;
   color: white;
@@ -80,7 +83,6 @@ body {
   left: 0px;
   align-content: center;
   font-size: 29px;
-  /* font-weight:700; */
   height: 42px;
   width: 170px;
   padding: 0px 0px 0px 10px;
