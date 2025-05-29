@@ -5,13 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="media-query.css">
   <title>Task-4</title>
 </head>
 
 <body>
   <header class="header">
     <div class="header-img">
-      <img src="./Imeges/logo.png" alt="kfeer logo" height="" width="130%" />
+      <img src="./Imeges/logo.png" alt="kfeer logo" height="100%" width="100%" />
     </div>
     <div class="header-left-side">
       <div class="header-text1">CALL OUR OFFICE NOW!</div>
@@ -21,7 +22,7 @@
     </div>
   </header>
   <nav class="nav-bar">
-    <div class="nav-link">
+    <div class="nav-link" id="nav-links active">
       <a class="a-tag" href="#">HOME</a>
       <a class="a-tag" href="#">BIOGRAPHY</a>
       <a class="a-tag" href="#">BLOG</a>
@@ -29,74 +30,79 @@
       <a class="a-tag" href="#">LIBRARY</a>
       <a class="a-tag" href="#">CONTACT</a>
     </div>
+    <a href="#" class="icon-toggle" id="nav-toggle">
+      <img src="./Imeges/responsive_menu_icon.png" alt="icon"></a>
   </nav>
   <main class="contaner">
     <div class="img-1">
-      <img src="./Imeges/gurantee_banner.gif" alt="baner for gurrante" height="370px" width="640px" />
+      <img src="./Imeges/gurantee_banner.gif" alt="baner for gurrante" height="" width="100%" >
     </div>
     <div class="img-2-bk">
-      <img src="./Imeges/form_bg.jpg" alt="form for submiton" height="370" width="500px" />
-      <div class="text-area">
-        <div class="Question">QUESTION?</div>
-        <div class="have">Have a</div>
-        <div class="Question-2">Question</div>
+       <div class="img-2-bk-top">
+           <div class="Question">QUESTION?</div>
+           <div class="have">Have a</div>
+            <div class="Question-2">Question</div>
+           
+           
+        </div>
         <div class="case">About Your Case?</div>
         <p class="paragraph">
           Enter your informations and get your questions answered <br />
           quickly and discreetly or call us at: <b>540.433.6906</b>
         </p>
         <form class="fom">
+          <div class="input-feld-main">
           <div class="nam">
             <label for="username">NAME:</label>
             <input type="text" />
           </div>
           <div class="mal">
             <label for="Email">EMAIL:</label>
-            <input type="text" />
+            <input class="inputall" type="text" />
           </div>
           <div class="pon">
             <label for="pHONE">PHONE:</label>
             <input type="text" />
           </div>
-        </form>
-        <div class="confident-img">
+          </div>
+          <div class="confident-img">
           <img src="/Imeges/confidential.png" alt="confident img" height="60" width="184px" />
         </div>
-        <div class="discripton-1main">
-          <textarea name="" id="discripton">
-            Tell us about your case here...</textarea>
-        </div>
+        </form>
+        <textarea class="textareas">Tell us about your case here...</textarea>
+        <div class="btn-and-privacy">
         <div class="privacy">
           <i>100% Privacy Guranteed</i>
         </div>
-        <div>
+        <div class="bttnn-main">
           <button class="btn-1">
             Ask Us About Your Case
             <img src="./Imeges/bullet_white_lrg.png" alt="play-icon " />
           </button>
         </div>
+        </div>
       </div>
     </div>
   </main>
   <!-- ////////////////////////////////                BOX 1       ///////////////////////////// -->
-  <section class="section-main-class">
+   <section class="section-main-class">
     <div class="ist-box-main">
       <div class="ist-box-text-1">
-        <h1>CHARGED WITH <span style="color: brown;">DUI?</span></h1>
-        <h4 class="ist-box-text-2">FREE CASE EVLUATION</h4>
+        <h1 class="h1tag">CHARGED WITH <span style="color: brown;">DUI?</span></h1>
+        <p class="ist-box-text-2">FREE CASE EVLUATION</p>
       </div>
       <div class="ist-box-text-and-img">
         <div>
-          <p>Bing charged with a DUI <br />
+          <p class="ptag">Bing charged with a DUI <br />
             can be scary. Get the help <br />
             you deserve </p>
 
-          Click here to let us know <br />
+          <p class="ptag-2">Click here to let us know <br />
           how we can help you with <br />
-          your case.
+          your case.</p>
         </div>
         <div class="ist-box-img">
-          <img src="./Imeges/paste_board.gif" alt="past bord" height="120px">
+          <img src="./Imeges/paste_board.gif" alt="past bord" >
         </div>
       </div>
       <div class="box-1-btn-1-main">
@@ -104,13 +110,14 @@
         CLICK HERE
         <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
       </button> 
-      <hr class="line-img-1">
-    </div>   
+      <img class="line-img-1" src="./Imeges/lf_bt_hr_shadow.png" alt="" >  
+    </div>  
+     
     </div>
-    </div>
-    <!-- ////////////////////////////////////// BOX 2 //////////////////////////// -->
-    <div class="hr-1"> </div>
-    <div class="box-2nd-main">
+    <!-- ////////////////////////////////////// BOX 2 //////////////////////////// --> 
+     <!-- <div class="hr-1"> </div> -->
+    <div>
+      <div class="box-2-">
       <div>
         <h1 class="box-2nd-text-1">
           LAW <span class="box-2nd-text-2">BLOG</span>
@@ -118,54 +125,52 @@
       </div>
       <div class="box-2nd-div-1">
         <div class="box-2nd-div-1-text-3">
-          <p> Learn more about <br>
+          <p class="ptag"> Learn more about <br>
             Virgina Traffic Laws.</p>
+            <div class="box-1-btn-1-main-2">
+      <button class="box-1-btn-1-2">
+        CLICK HERE
+        <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
+      </button> 
+      <img class="line-img-2" src="./Imeges/lf_bt_hr_shadow.png" alt="" >  
+    </div>  
         </div>
         <div class="box-2nd-div-1-img">
-          <img src="./Imeges/pic1.gif" alt="gift pic" height="100px" />
+          <img src="./Imeges/pic1.gif" alt="gift pic" height="100%" />
         </div>
       </div>
-      <div class="box-2nd-div-1-btn-1-main">
-        <button class="box-2nd-div-1-btn-1">
-          CLICK HERE
-          <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
-        </button>
-        <hr class="line-img-2">
       </div>
-      <div class="hr-2"></div>
       <div class="box-2nd-div-2">
           <h1 class="box-2nd-div-2-text-1">
             CASE <span class="box-2nd-div-2-text-2">RESULTS</span>
           </h1>
-        <div class="box-2nd-div-2-text-and-img">
+        <div class="box-2nd-div-2-text-img">
           <div>
             <p class="box-2nd-div-2-text-3">See how we help our clients. <br>
               Read our latest case results.</p>
           </div>
           <div class="box-2nd-div-2-img">
-            <img class="order-img" src="./Imeges/order_icon.gif" alt="order list" height="120px">
+            <img class="order-img" src="./Imeges/order_icon.gif" alt="order list" ">
           </div>
         </div>
-        <div class="box-2nd-div-2-btn-2-main">
-          <button class="box-2nd-div-2-btn-2">
-            CLICK HERE
-            <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
-          </button>
-          <hr class="line-img-3">
-        </div>
+         <div class="box-1-btn-1-main-3">
+      <button class="box-1-btn-1-3">
+        CLICK HERE
+        <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
+      </button> 
+      <img class="line-img-3" src="./Imeges/lf_bt_hr_shadow.png" alt="" >  
+    </div>  
       </div>
     </div>
-    <div class="hr-3"></div>
     <!-- /////////////////////////   box 3           ////////////////////////////// -->
 
-    <div class=" box-3">
-      <div class="box-3-main">
+       <div class="box-3-main">
         <div class="box-3-img-div">
           <div>
-            <img src="./Imeges/avo_rating_large.gif" alt="logo for rating" height="100px">
+            <img src="./Imeges/avo_rating_large.gif" alt="logo for rating" height="100%">
           </div>
           <div>
-            <img src="./Imeges/national_college_large.gif" alt="logo for awards" height="100px">
+            <img src="./Imeges/national_college_large.gif" alt="logo for awards" height="100%">
           </div>
         </div>
         <div class="box-3-main-text">
@@ -175,14 +180,20 @@
             rights of Virginians for over 30 years.
           </P>
         </div>
-        <div class="box-3-btn-1-main">
-          <button class="box-3-btn-1">
-            LEARN MORE
-            <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
-          </button>
-          <hr class="line-img-4">
-        </div>
-  </section>
+           <div class="box-1-btn-1-main-4">
+      <button class="box-1-btn-1-4">
+        CLICK HERE
+        <img src="./Imeges/bullet_white_lrg.png" alt="btn click" height="" width="" />
+      </button> 
+      <img class="line-img-4" src="./Imeges/lf_bt_hr_shadow.png" alt="" >  
+    </div>           
+
+
+
+
+
+      </div>
+  </section> 
   <!-- ///////////////////////////              box 3 complete ///////////////////      -->
   <div class="shadow">
     <img src="./Imeges/lf_bt_hr_shadow.png" alt="shadow" height="6px" width="100%">
@@ -353,6 +364,13 @@
   <div class="footers">
      <img class="footer-img" src="./Imeges/menu_bg.gif" alt="" height="18px" width="100%">
   </div>
-</footer>  
+</footer> 
+<script>
+  const toggleButton=document.getElementById ('nav-toggle');
+  const navlink=document.getElementById ('nav-links');
+  toggleButton.addEventListener ('click', () =>{
+    navlink.classList.toogle('active');
+  })
+</script> 
 </body>
 </html>
