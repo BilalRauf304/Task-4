@@ -1,26 +1,133 @@
-@media  (max-width:769px){
+@media (max-width:1150px){
+  .img-1{
+    height:auto;
+  }
+  .img-2-bk-top{
+  
+  }
+  .Question{
+    font-size: 1.5rem;
+    height: 30px;
+  }
+  .have{
+  font-size: 1rem;
+}
+.Question-2{
+font-size:1rem ;
+}
+.case{
+font-size: 1rem;
+
+}
+.paragraph{
+padding: 0;
+font-size: 0.5rem;
+}
+.form{
+  gap: 0;
+  font-size: 6px;
+}
+
+.confident-img{
+height: 10px;
+ margin: 0;
+ transform: rotate(0);
+}
+.textareas{
+margin: 0;
+font-size:10px ;
+height: 20px;
+margin-top: 56px;
+}
+.btn-and-privacy{
+  padding: 0;
+}
+.btn-1{
+  height: 26px;
+  font-size: 1rem;
+}
+
+}
+@media (max-width:992px) {
+  .body{
+    background-color: blueviolet;
+  }
+  .img-1{
+    height: auto;
+  }
+  .header-img{
+    width: 60%;
+  }
+  .header-right-side{
+    width: 26%;
+  }
+  .contact-no{
+    font-size:2rem;
+    color: red;
+  }
+  .contaner{
+    flex-direction: column;
+  }
+  .img-1{
+    width: auto;
+  }
+  .img-2-bk{
+    width: 100%;
+    padding-block: 20px 20px;
+  }
+  .ist-box-main,
+  .box-2{
+    /* flex-direction: column; */
+    width:100%;
+    flex-wrap: wrap;
+
+  }
+  .ist-box-main{
+    width: auto;
+  }
+  .box-2{
+    width:100%;
+  }
+}
+@media  (max-width:768px){
     .body{
      background-color: aquamarine;
 
     }
     .header{
-        /* flex-shrink: 0; */
-        /* flex-grow: 0; */
         padding-left: 10px;
         padding-right: 10px;
     }
     .header-img{
-        width: 100%;
+        width: 50%;
         height: 100%;
-        height: max-content;
-        
+        /* height: max-content;   */
     }
-    .hr{
-        width: auto;
+    .header-right-side{
+     margin-top: 10px;
+      width: 22%;
     }
+    .header-text1 {
+  font-size:0.5rem;
+  
+}
+.hr {
+  height: 3px;
+  width:98%;
+  background-color: rgba(73, 73, 87, 0.484);
+}
+.contact-no {
+  font-size: 1.5rem;
+}
+.header-text1{
+  font-size: 0.7rem;
+}
+.header-text2 {
+  font-size:0.4rem;
+}
     .nav-link{
-        /* display: none;
-         */
+         /* display: none; */
+        
          position:relative;
          background-color:rgb(55, 57, 57);
         top: 100%;
@@ -36,13 +143,11 @@
   }
   .nav-link{
   flex-direction: column;
-
   }
 
   .contaner{
     flex-direction: column;
     align-items: center;
-    /* padding: 10px 6px 0px 6px ; */
   }
   .img-1{
     width: 96%;
@@ -51,17 +156,132 @@
     width: 96%;
    } 
    .section-main-class{
-     flex-direction: column;
      flex-wrap: wrap;
+     justify-content: space-evenly;
      width:auto;
+     padding-right: 5px;
    }   
    .ist-box-main{
-    width:60%;
+    width:45%;
+    padding-left: 5px;
+   }
+   .box-2{
+  
+   }
+   .box-3-main{
+    width: 100%;
+    justify-content: center;
+    /* padding-left:12rem; */
+    padding-right: 8rem;
    }
    .main-for-all{
     flex-wrap: wrap;
+    /* width: auto; */
+    /* width: 100%; */
+   }
+   .main-for-all .artical-para{
+  color: rgb(17, 19, 19);
+  font-size: 11px;
+}
+   .aside-main{
+    width: 50%;
+   }
+   .aside-last-text{
+    display: flex;
+    color:blue;
+    width: 100%;
    }
    .aside-main{
-    width: 80%;
+    width: 25%;
+    padding: 0;
+   }
+   .artical-main{
+    width: 100%;
+    font-size: 4px;
+    padding-right: 8px;
+   }
+   .aside-b-main{
+      /* display: flex; */
+      justify-content: center;
    }
 }
+@media  (max-width:576px){
+  .body{
+    background-color: rgb(225, 172, 48);
+  }
+  .header{
+    width: 100%;
+    height: 100%;
+  }
+  .header-right-side{
+  width:27%;
+  padding-bottom: 13px;
+  }
+  .header-text1{
+    font-size:8px;
+  }
+  .hr{
+    width:84%;
+    margin-bottom:14px;
+  }
+  .header-text2 {
+  font-size:5px;
+}
+  .contact-no {
+  font-size:15px;
+}
+  .section-main-class{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ist-box-main{
+    width: 100%;
+  }
+  .box-2-{
+    width: 100%;
+  }
+ .box-3-main{
+    width:100%;
+   }
+   .aside-b-main{
+    width: 100%;
+   }
+   .main-for-all{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+    .main-for-all .artical-para{
+  color:rgb(15, 13, 13);
+  font-size: 8px;
+}
+.aside-main{
+  width: 100%;
+}
+.aside-text-2nd-last {
+  font-size: 1.6rem;
+}
+.aside-last-text{
+  flex-direction: row;
+}
+.artical-para{
+  font-size:1rem ;
+  width: 100%;
+  color: yellowgreen;
+}
+.aside-b-main{
+  width: 100%;
+  align-items: flex-start;
+}
+.aside-b-award-compny-img {
+ width: 100%;
+ flex-direction: row;
+ /* align-items: start; */
+ padding-right: 28px;
+
+}
+.footer-img{
+  padding-top: 20px ;
+}
+}
+
